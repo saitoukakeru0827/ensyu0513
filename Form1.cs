@@ -17,5 +17,19 @@ namespace ensyu0513
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Text = "押された";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Left = 0;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button3.Visible = false;
+        }
     }
 }
